@@ -43,3 +43,26 @@ task-manager/
 ├── screenshots/
 │   └── main.png
 └── README.md
+
+
+Описание файлов:
+
+- `src/index.html` — основная страница приложения
+- `src/style.css` — стили и оформление
+- `src/app.js` — логика работы с задачами
+- `data/tasks.json` — файл, где хранятся задачи
+- `screenshots/main.png` — скриншот интерфейса
+- `README.md` — документация проекта
+
+## Данные
+
+Все задачи хранятся в файле `data/tasks.json`. Пример структуры:
+
+```json
+[
+    {
+        "id": 1,
+        "title": "Подготовить документацию",
+        "completed": false
+    }
+]
